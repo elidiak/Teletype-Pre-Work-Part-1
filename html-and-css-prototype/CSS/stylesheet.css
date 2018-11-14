@@ -37,6 +37,39 @@ h1 {
   black: #424242;
   grey: #777;
   light grey: #eaeaea;
-*/
+	*/
 
 /* Your CSS code goes here */
+
+.container2 {
+	display: grid;
+	/* roughly, the template has 6 rows. */
+	grid-template rows: 10px 10px 10px 10px 10px 10px;
+	/* the mock up has two columns*/
+	grid-template-columns: 50% 50%
+}
+
+.header {
+	background-color: black;
+	font-color: white;
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 1;
+}
+
+.donate {
+	font-color: black;
+	grid-column 1 / span 1;
+	grid-row: 2 / span 4;
+}
+
+.orange {
+	font-color: orange;
+}
+
+.blue {
+	font-color: blue;
+}
+
+.italic {
+	font-style: italic;
+}
