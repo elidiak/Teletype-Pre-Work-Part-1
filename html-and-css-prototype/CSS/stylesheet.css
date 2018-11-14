@@ -46,30 +46,64 @@ h1 {
 	/* roughly, the template has 6 rows. */
 	grid-template rows: 10px 10px 10px 10px 10px 10px;
 	/* the mock up has two columns*/
-	grid-template-columns: 50% 50%
+	grid-template-columns: 50% 50%;
+	color: #424242;
 }
 
 .header {
-	background-color: black;
-	font-color: white;
+	background-color: #777;
+	color: #FFFFFF;
 	grid-column: 1 / span 2;
 	grid-row: 1 / span 1;
 }
 
 .donate {
-	font-color: black;
-	grid-column 1 / span 1;
+	color: black;
+	grid-column: 1 / span 2;
 	grid-row: 2 / span 4;
+	border-style: solid;
+	border-color: #777;
+	border-width: 5px;
 }
 
+.submit {
+	background-color: #1CBC2C;
+	color: white;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #1CBC2C;
+	border-width: 5px;
+}
+
+.currency {
+	border-radius: 5px;
+	border-style: sold;
+	border-color: #eaeaea;
+}
+
+.progress {
+	color: #EF5F3C;
+}
 .orange {
-	font-color: orange;
+	color: #EF5F3C;
 }
 
 .blue {
-	font-color: blue;
+	color: #20A1D4;
 }
 
 .italic {
 	font-style: italic;
+}
+
+.later {
+	color: #777;
+	background-color: #eaeaea;
+	border-color: #777;
+}
+
+.friends {
+	color: #777;
+	background-color: #eaeaea;
+	border-color: #777;
 }
